@@ -1,0 +1,33 @@
+<!-- Toolbar -->
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+  }
+
+  body {
+    background-color: #30303d !important;
+    color: #fff;
+  }
+  #chartdiv {
+    width: 100%;
+    height: 600px;
+  }
+</style>
+<div class="toolbar" role="banner">
+  <div class="col-md-4"><span>gig</span></div>
+  <div class="spacer"></div>
+  <div style="color: black">
+    <a target="_blank" rel="" href="#" title="">
+      <span style="color: white"> login with <i class="fa fa-google"></i></span>
+    </a>
+  </div>
+  <div class="col-md-1"><span></span></div>
+</div>
+
+<div class="content" role="main">
+  <div id="chartdiv"></div>
+  <footer></footer>
+</div>
+<router-outlet></router-outlet>
